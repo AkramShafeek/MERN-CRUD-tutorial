@@ -1,5 +1,4 @@
 import React from 'react'
-import { deleteStudent } from '../services/api';
 
 const Row = ({ student, isEven, deleteCallBack }) => {
   const { firstname, lastname, usn, email, year, sem, section } = student;

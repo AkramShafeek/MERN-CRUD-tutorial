@@ -1,7 +1,7 @@
 import axios from "axios"
 import { apiRootUrl } from "./config";
 
-export const getStudents = async (payload) => {
+export const getStudents = async () => {
   try {
     const response = await axios.get(apiRootUrl);
     return response.data;

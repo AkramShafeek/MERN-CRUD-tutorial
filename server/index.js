@@ -4,7 +4,9 @@ const router = require('./router/student');
 const connectToMongo = require('./database/connectToMongo');
 const cors = require('cors');
 
+// to parse requests with json objects
 app.use(express.json());
+// to allow cross origin requests
 app.use(cors());
 
 app.use('/api/v1/', router);

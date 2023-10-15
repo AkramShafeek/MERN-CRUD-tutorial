@@ -26,7 +26,7 @@ const Home = () => {
 
   useEffect(() => {
     fetchStudents();
-  }, [students]);
+  }, []);
 
   return (
     <div className="container d-flex w-100 j-center a-center p-20 mt-40">

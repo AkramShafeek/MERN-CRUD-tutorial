@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react'
 import Row from './Row';
 
 const Table = ({ students, deleteCallBack }) => {
